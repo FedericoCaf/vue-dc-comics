@@ -7,9 +7,9 @@
       <MainSection/>
 
       <ShopSection/>
+
+      <Footer/>
     
-    
-    <footer>FOOTER</footer>
   </div>
 </template>
 
@@ -18,6 +18,7 @@
 import Header from './components/Header.vue';
 import MainSection from './components/MainSection.vue';
 import ShopSection from './components/ShopSection.vue';
+import Footer from './components/Footer.vue';
 
 
 export default {
@@ -26,6 +27,7 @@ export default {
    Header,
    MainSection,
    ShopSection,
+   Footer,
   }
 }
 </script>
@@ -38,6 +40,7 @@ export default {
 
   header{
     height: 100px;
+    min-width: 800px;
   }
 
    main{
@@ -45,6 +48,10 @@ export default {
     width: 100%;
     background-color: black;
     color: white;
+  }
+
+  li{
+    cursor: pointer;
   }
 
 

@@ -101,6 +101,8 @@ export default {
   .menu-header{
     height: 100px;
     width: 700px;
+    font-size: 13px;
+    font-weight: bold;
   }
 
   .active-text{
