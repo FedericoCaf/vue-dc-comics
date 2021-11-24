@@ -1,0 +1,30 @@
+.fc-container{
+  width: 1170px;
+  margin: 0 auto;
+  height: 100vh;
+  background-color: darkkhaki;
+}
+
+.fc-flex-between{
+  display: flex;
+  justify-content: space-between;
+}
+
+.fc-flex-align-center{
+  display: flex;
+  align-items: center;
+}
+
+.fc-flex-between-align-center{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul li{
+  list-style: none;
+}
+
+li a{
+  text-decoration: none;
+}
