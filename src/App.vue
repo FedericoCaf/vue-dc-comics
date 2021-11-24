@@ -1,8 +1,7 @@
 <template>
   <div>
-     <header>
-        <Header/>
-     </header>
+   
+      <Header/>
    
       <MainSection/>
 

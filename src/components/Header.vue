@@ -1,6 +1,6 @@
 <template>
-  
-    <div class="fc-container fc-flex-between">
+   <header>
+       <div class="fc-container fc-flex-between">
        <div class="logo-header">
          <a href="#">
            <img src="../assets/img/dc-logo.png" alt="logo">
@@ -16,6 +16,8 @@
         </nav>
        </div>
     </div>
+   </header>
+  
    
 </template>
 
