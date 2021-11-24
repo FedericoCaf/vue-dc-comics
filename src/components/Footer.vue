@@ -1,53 +1,63 @@
 <template>
   <footer>
-    <div class="footer-top">
-       <div class="fc-container">
-         <div class="footer-list">
-            <ul>
-              <li> <strong> DC COMICS </strong> </li>
-              <li>Characters</li>
-              <li>Comics</li>
-              <li>Movies</li>
-              <li>Games</li>
-              <li>videos</li>
-              <li>News</li>
-            </ul>
-            <ul>
-              <li> <strong> SHOP </strong> </li>
-              <li>Shop DC</li>
-              <li>Shop DC collectibles</li>
-            </ul>
-         </div>
-         <div class="footer-list">
-            <ul>
-              <li> <strong> DC </strong> </li>
-              <li>Terms of use</li>
-              <li>Privacy policy(new)</li>
-              <li>Ad Choices</li>
-              <li>Advertising</li>
-              <li>Jobs</li>
-              <li>Subscription</li>
-              <li>Talent Workshops</li>
-              <li>CPSC Certificates</li>
-              <li>Ratings</li>
-              <li>Shop Help</li>
-              <li>Contact Us</li>
-            </ul>
-         
-         </div>
-         <div class="footer-list">
-            <ul>
-              <li> <strong> SITES </strong> </li>
-              <li>DC</li>
-              <li>MAD magazine</li>
-              <li>DC kids</li>
-              <li>DC universe</li>
-              <li>DC power visa</li>
-            </ul>
-         </div>
+  
+       <div class="footer-top">
+         <div class="fc-container fc-flex-between">
+           <div class="footer-list-left">
+             <div class="footer-list">
+                <ul>
+                  <li> <strong> DC COMICS </strong> </li>
+                  <li>Characters</li>
+                  <li>Comics</li>
+                  <li>Movies</li>
+                  <li>Games</li>
+                  <li>videos</li>
+                  <li>News</li>
+                </ul>
+                <ul>
+                  <li> <strong> SHOP </strong> </li>
+                  <li>Shop DC</li>
+                  <li>Shop DC collectibles</li>
+                </ul>
+            </div>
+            <div class="footer-list">
+                <ul>
+                  <li> <strong> DC </strong> </li>
+                  <li>Terms of use</li>
+                  <li>Privacy policy(new)</li>
+                  <li>Ad Choices</li>
+                  <li>Advertising</li>
+                  <li>Jobs</li>
+                  <li>Subscription</li>
+                  <li>Talent Workshops</li>
+                  <li>CPSC Certificates</li>
+                  <li>Ratings</li>
+                  <li>Shop Help</li>
+                  <li>Contact Us</li>
+                </ul>
+            
+            </div>
+            <div class="footer-list">
+                <ul>
+                  <li> <strong> SITES </strong> </li>
+                  <li>DC</li>
+                  <li>MAD magazine</li>
+                  <li>DC kids</li>
+                  <li>DC universe</li>
+                  <li>DC power visa</li>
+                </ul>
+            </div>
        
-       </div>
+          </div>
+
+          <div class="footer-img-right">
+              <img src="../assets/img/dc-logo-bg.png" alt="">
+          </div>
+         </div>
+          
     </div>
+   
+   
 
    <div class="footer-bottom fc-flex-between-align-center">
      <div class="fc-container fc-flex-between-align-center">
@@ -98,6 +108,7 @@ footer{
      background-size: cover;
      height: calc(100vh - 380px);
      overflow: hidden;
+  
    }
    .footer-bottom{
      height: 60px;
@@ -126,7 +137,7 @@ ul li:first-child{
 }
 
 .sign-up button{
-  padding: 15px;
+  padding: 12px;
   border: 2px solid $primary-color;
   background-color: #303030;
   color: white;
