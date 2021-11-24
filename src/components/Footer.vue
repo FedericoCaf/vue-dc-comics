@@ -106,18 +106,18 @@ footer{
      background-image:url("../assets/img/footer-bg.jpg");
      background-position: center;
      background-size: cover;
-     height: calc(100vh - 380px);
+     height: 300px;
      overflow: hidden;
   
    }
    .footer-bottom{
-     height: 60px;
+     height: 80px;
      background-color: #303030;
    }
 }
 
 ul{
-  padding-top: 35px;
+  padding-top: 25px;
    li{
      margin: 5px;
    }
@@ -151,5 +151,19 @@ ul li:first-child{
      cursor: pointer;
    }
 }
+
+.footer-img-right{
+  position: relative;
+  width: 560px;
+  height: 560px;
+}
+
+.footer-img-right img{
+  position: absolute;
+  top: -140px;
+  right: 0;
+}
+
+
 
 </style>

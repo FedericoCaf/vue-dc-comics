@@ -44,7 +44,7 @@ export default {
   }
 
    main{
-    height: 100px;
+    height: calc(100vh - 600px);
     width: 100%;
     background-color: black;
     color: white;
