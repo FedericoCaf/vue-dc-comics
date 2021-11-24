@@ -1,5 +1,5 @@
 <template>
-  <header>
+  
     <div class="fc-container fc-flex-between">
        <div class="logo-header">
          <a href="#">
@@ -17,7 +17,6 @@
        </div>
     </div>
    
-  </header>
 </template>
 
 <script>
@@ -91,10 +90,7 @@ export default {
 @import '../assets/style/vars.scss';
 @import '../assets/style/utilities.scss';
 
-  header{
-    height: 100px;
-    background-color: aqua;
-  }
+ 
 
   .logo-header{
     height: 100px;
@@ -112,12 +108,12 @@ export default {
   }
 
   .active-border{
-    border-bottom: 2px solid $primary-color;
-    margin-bottom: -2px;
+    border-bottom: 3px solid $primary-color;
   }
 
   li{
     height: 100px;
+    border-bottom: 3px solid transparent;
      a{
        color: black;
      }
