@@ -4,6 +4,9 @@
      
   </div>
    <div class="fc-container card-container">
+      <div class="fc-container button-container-series">
+        <button class="button-series">CURRENT SERIES</button>
+      </div>
     <ProductCard
      v-for="(product, index) in externalList" :key="index"
      :product="product"   
@@ -60,6 +63,21 @@ export default {
           cursor: pointer;
           font-size: 12px
         }
+     }
+
+     .button-container-series{
+       margin-top: -55px
+     }
+
+     .button-series{
+       padding: 10px;
+       background-color: $primary-color;
+       color: white;
+       border: none;
+       font-size: 18px;
+       font-weight: bold;
+       cursor: pointer;
+       
      }
   }
 
