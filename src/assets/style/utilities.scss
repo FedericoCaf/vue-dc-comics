@@ -1,6 +1,5 @@
 .fc-container{
   width: 1170px;
-  min-width: 850px;
   margin: 0 auto;
 }
 
@@ -28,6 +27,7 @@
 
 ul li{
   list-style: none;
+  cursor: pointer;
 }
 
 li a{

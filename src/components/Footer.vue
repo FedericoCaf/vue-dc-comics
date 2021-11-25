@@ -155,7 +155,7 @@ ul li:first-child{
 .footer-img-right{
   position: relative;
   width: 560px;
-  height: 560px;
+  // height: 560px;
 }
 
 .footer-img-right img{

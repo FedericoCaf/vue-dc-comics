@@ -92,7 +92,10 @@ export default {
 @import '../assets/style/vars.scss';
 @import '../assets/style/utilities.scss';
 
- 
+ header{
+    height: 100px;
+    min-width: 800px;
+  }
 
   .logo-header{
     height: 100px;

@@ -37,21 +37,4 @@ export default {
   @import "./assets/style/generals.scss";
   @import "./assets/style/utilities.scss";
 
-  header{
-    height: 100px;
-    min-width: 800px;
-  }
-
-   main{
-    height: calc(100vh - 600px);
-    width: 100%;
-    background-color: black;
-    color: white;
-  }
-
-  li{
-    cursor: pointer;
-  }
-
-
 </style>
