@@ -7,10 +7,10 @@
       <div class="fc-container button-container-series">
         <button class="button-series">CURRENT SERIES</button>
       </div>
-    <ProductCard
+     <ProductCard
      v-for="(product, index) in externalList" :key="index"
      :product="product"   
-    />   
+     />   
   </div>
 
   <div class="fc-container fc-button">

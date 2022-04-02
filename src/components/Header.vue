@@ -9,7 +9,8 @@
        <div class="menu-header">
          <nav>
             <ul class="fc-flex-between-align-center">
-              <li :class="{'active-border': item.current}" class="fc-flex-align-center" v-for="(item, index) in links" :key="index">
+              <li :class="{'active-border': item.current}" class="fc-flex-align-center" 
+              v-for="(item, index) in links" :key="index">
                  <a :class="{'active-text': item.current}" :href="item.url">{{item.text}}</a>
               </li>
             </ul>
